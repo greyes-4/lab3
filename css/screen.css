@@ -216,6 +216,13 @@ label {
 	cursor: pointer;
 }
 /* ===== STATE STYLES ======= */
+body{
+	background-color: #ababab;
+	font-family: "Amaranth", sans-serif;
+	width: 100%;
+	display: flex;
+}
+
 input:focus,
 textarea:focus,
 select:focus {
@@ -233,7 +240,5 @@ select:focus {
 	color: #808080;
 	cursor: not-allowed;
 }
-
-body {
-	font-family: "Lato", "Ariel", sans-serif;
-}
+/* ===== FONT FAMILY SETUP ===== */
+@import url('
