@@ -224,7 +224,8 @@ body{
 }
 
 input[type="email"],
-input[type="checkbox"] {
+input[type="checkbox"]
+input[type="submit"] {
 	background: #ffffff;
 	width: 100%
 	border: none;
@@ -232,6 +233,19 @@ input[type="checkbox"] {
 	font-size: 1rem:
 	border-radius: 100px;
 }
+
+input[type="email"]:focus,
+input[type="checkbox"]:focus {
+	outline: none;
+	background-color: #666666;
+}
+
+input[type="submit"] {
+  background-color: #666666;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}z
 
 form {
 	display: flex;
