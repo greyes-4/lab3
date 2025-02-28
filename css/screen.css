@@ -203,6 +203,37 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-
-
+.button {
+	display: block;
+	width: 100%
+	padding: 1rem;
+	background-color: #c0c0c0;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	broder-radius: 5px;
+	cursor: pointer;
+}
 /* ===== STATE STYLES ======= */
+input:focus,
+textarea:focus,
+select:focus {
+	background-color: #e0e0e0;
+	outline: none;
+	box-shadow: insert 0 epx 6px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+	background: #a0a0a0;
+}
+
+.button:disabled {
+	background-color: #d8d8d8;
+	color: #808080;
+	cursor: not-allowed;
+}
+
+body {
+	font-family: "Lato", "Ariel", sans-serif;
+}
