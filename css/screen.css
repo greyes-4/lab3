@@ -223,22 +223,38 @@ body{
 	display: flex;
 }
 
-input:focus,
-textarea:focus,
-select:focus {
-	background-color: #e0e0e0;
-	outline: none;
-	box-shadow: insert 0 epx 6px rgba(0, 0, 0, 0.15);
+form {
+	background-color: #818589;
+	padding: 3rem 2rem;
+	border-radius: 20px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	max-width: 480px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 
-.button:hover {
-	background: #a0a0a0;
+h1 {
+	font-size 2.25rem;
+	margin-bottom: 1.5rem;
+	text-align: center;
+	color: #371797E;
+	font-weight: 600;
+	word-wrap: break-word;
+	white-space: normal;
+	line-height: 1.5;
 }
 
-.button:disabled {
-	background-color: #d8d8d8;
+p {
+	font-size: 1.1rem;
+	margin-bottom: 1.5 rem;
+	text-align: center;
+	color: #36454F;
+}
+
+label {
+	display: block;
+	font-size: 1.05rem;
+	margin-bottom: 1rem;
 	color: #808080;
-	cursor: not-allowed;
+	font-weight: 500;
 }
-/* ===== FONT FAMILY SETUP ===== */
-@import url('
