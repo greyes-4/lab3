@@ -205,14 +205,14 @@ label {
 /* ===== LAYOUT STYLES ====== */
 .button {
 	display: block;
-	width: 100%
+	width: 100;
 	padding: 1rem;
 	background-color: #c0c0c0;
 	color: #000000;
 	font-weight: bold;
 	text-align: center;
 	border: none;
-	broder-radius: 5px;
+	border-radius: 5px;
 	cursor: pointer;
 }
 /* ===== STATE STYLES ======= */
