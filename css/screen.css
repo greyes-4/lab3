@@ -223,6 +223,16 @@ body{
 	display: flex;
 }
 
+input[type="email"],
+input[type="checkbox"] {
+	background: #ffffff;
+	width: 100%
+	border: none;
+	padding: 0.8rem;
+	font-size: 1rem:
+	border-radius: 100px;
+}
+
 form {
 	background-color: #818589;
 	padding: 3rem 2rem;
