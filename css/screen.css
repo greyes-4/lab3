@@ -256,7 +256,7 @@ input[type="submit"] {
 form {
 	display: flex;
 	flex-direction: column;
-	background: #ffffff;
+	background: #e6e6e6;
 }
 
 h1 {
