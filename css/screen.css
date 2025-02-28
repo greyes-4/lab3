@@ -205,7 +205,7 @@ label {
 /* ===== LAYOUT STYLES ====== */
 .button {
 	display: block;
-	width: 100;
+	width: 100%;
 	padding: 1rem;
 	background-color: #c0c0c0;
 	color: #000000;
