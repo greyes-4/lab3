@@ -271,8 +271,8 @@ h1 {
 }
 
 p {
-	font-size: 1.1rem;
-	margin-bottom: 1.5 rem;
+	font-size: 1rem;
+	margin-bottom: 1 rem;
 	text-align: center;
 	color: #787878;
 }
@@ -280,9 +280,7 @@ p {
 label {
 	display: block;
 	font-size: 1.05rem;
-	margin-bottom: 1rem;
 	color: #303030;
-	font-weight: 500;
 }
 
 #context {
