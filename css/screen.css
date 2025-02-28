@@ -225,6 +225,7 @@ body{
 	justify-context: center;
 	align-item: center;
 	padding: 1rem;
+	min-height: 100vh;
 }
 
 input[type="email"],
