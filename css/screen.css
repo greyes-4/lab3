@@ -224,6 +224,7 @@ body{
 	text-align: center;
 	justify-context: center;
 	align-item: center;
+	padding: 1rem;
 }
 
 input[type="email"],
