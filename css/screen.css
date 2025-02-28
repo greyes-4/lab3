@@ -221,6 +221,7 @@ body{
 	font-family: "Amaranth", sans-serif;
 	width: 100%;
 	display: flex;  
+	text-align: center;
 	justify-context: center;
 	align-item: center;
 }
